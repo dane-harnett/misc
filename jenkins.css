@@ -10,6 +10,10 @@
   width: 33%;
 }
 
-.revision .build-body .secondary-info table tr:nth-child(2) {
+.revision .build-body .secondary-info table tr:nth-child(2),
+.revision .build-body .secondary-info table tr:nth-child(8),
+.revision .build-body .secondary-info table tr:nth-child(10),
+.revision .build-body .secondary-info table tr:nth-child(14)
+{
   display: none;
 }
