@@ -1,6 +1,15 @@
+/* Make the build pipeline component use the full window width */
 @media (min-width: 1170px) {
   #main-panel {
     margin-left: 0;
     width: 100%;
   }
+}
+
+.revision-cell {
+  width: 33%;
+}
+
+.revision .build-body .secondary-info table tr:nth-child(2) {
+  display: none;
 }
