@@ -1,19 +1,25 @@
-/* Make the build pipeline component use the full window width */
-@media (min-width: 1170px) {
-  #main-panel {
-    margin-left: 0;
-    width: 100%;
-  }
+.pipeline-wrapper {
+  display: block;
+  overflow: hidden;
 }
 
-.revision-cell {
-  width: 33%;
+.pipeline-info {
+  margin-right: 10px;
+  width: 400px;
 }
 
-.revision .build-body .secondary-info table tr:nth-child(2),
-.revision .build-body .secondary-info table tr:nth-child(8),
-.revision .build-body .secondary-info table tr:nth-child(10),
-.revision .build-body .secondary-info table tr:nth-child(14)
-{
+.pipeline-info .revision .description ul li {
   display: none;
+}
+
+.pipeline-info .revision .description ul li:nth-child(1),
+.pipeline-info .revision .description ul li:nth-child(2),
+.pipeline-info .revision .description ul li:nth-child(4),
+.pipeline-info .revision .description ul li:nth-child(5),
+.pipeline-info .revision .description ul li:nth-child(8),
+.pipeline-info .revision .description ul li:nth-child(10),
+.pipeline-info .revision .description ul li:nth-child(14),
+.pipeline-info .revision .description ul li:nth-child(16),
+.pipeline-info .revision .description ul li:nth-child(22) {
+    display: block;
 }
