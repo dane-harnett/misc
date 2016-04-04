@@ -1,0 +1,25 @@
+.pipeline-wrapper {
+  display: block;
+  overflow: hidden;
+}
+
+.pipeline-info {
+  margin-right: 10px;
+  width: 150px;
+}
+
+.pipeline-info .revision .description ul li {
+  display: none;
+}
+
+.pipeline-info .revision .description ul li:nth-child(1),
+.pipeline-info .revision .description ul li:nth-child(2),
+.pipeline-info .revision .description ul li:nth-child(4),
+.pipeline-info .revision .description ul li:nth-child(5),
+.pipeline-info .revision .description ul li:nth-child(8),
+.pipeline-info .revision .description ul li:nth-child(10),
+.pipeline-info .revision .description ul li:nth-child(14),
+.pipeline-info .revision .description ul li:nth-child(16),
+.pipeline-info .revision .description ul li:nth-child(22) {
+    display: block;
+}
