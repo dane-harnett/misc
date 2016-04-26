@@ -2,7 +2,7 @@ h1 {
   display: none;
 }
 
-.build-pipeline-plugin-content h1 {
+#build-pipeline-plugin-content h1 {
   display: block;
 }
 
