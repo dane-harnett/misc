@@ -1,3 +1,7 @@
+h1 {
+  display: none;
+}
+
 .pipeline-wrapper {
   display: block;
   overflow: hidden;
