@@ -2,8 +2,20 @@ h1 {
   display: none;
 }
 
+#page-head {
+  display: none;
+}
+
+#description {
+  display: none;
+}
+
 #build-pipeline-plugin-content h1 {
   display: block;
+}
+
+#icon-bar {
+  display: none;
 }
 
 .pipeline-wrapper {
