@@ -1,3 +1,6 @@
+div.stage {
+  height: auto !important;
+}
 div.stage-task {
   min-height: auto;
 }
@@ -8,4 +11,9 @@ div.task-progress {
 
 .task-details {
   display: none;
+}
+
+.stage_Functional_Tests.stage-task {
+  display: inline-block;
+  width: 20%;
 }
