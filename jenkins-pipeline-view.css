@@ -13,7 +13,7 @@ div.task-progress {
   display: none;
 }
 
-.stage_Functional_Tests.stage-task {
+.stage_Functional_Tests .stage-task {
   display: inline-block;
   width: 20%;
 }
