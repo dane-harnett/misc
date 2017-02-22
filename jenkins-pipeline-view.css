@@ -1,3 +1,11 @@
+.stage-task {
+  min-height: auto;
+}
+
+.task-progress {
+  min-height: auto;
+}
+
 .task-details {
   display: none;
 }
