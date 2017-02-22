@@ -21,3 +21,19 @@ div.task-progress {
   display: inline-block;
   width: 18%;
 }
+
+section.pipeline-component h1 {
+  color: #fff;
+}
+
+section.pipeline-component h2 {
+  color: #fff;
+}
+
+div.pipeline-cell {
+  padding-bottom: 0;
+}
+
+.pipeline-cell svg {
+  display: none;
+}
